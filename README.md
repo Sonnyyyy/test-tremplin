@@ -30,7 +30,7 @@ Le problème est venu de la contrainte du temps, je n'ai pas pu faire ce à quoi
 ## Avez-vous appris de nouveaux outils pour répondre à l'exercice ? Si oui, lesquels ?
 
 J'ai essayé d'apprendre à utiliser Appache (première fois pour moi),
-mais les délais m'ont forcés à retourner sur des bases que je connaissais.
+mais les délais m'ont forcés à retourner sur des bases que je connaissais: Angular et Node.js.
 
 ## Pourquoi avoir choisi d'utiliser ces outils ?
 
