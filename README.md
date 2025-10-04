@@ -11,11 +11,15 @@ Moi c'est Sonny Pollet, j'ai appris à développer en auto-didacte, et j'ai ensu
 ## Démarrer l'environnement
 
 > cd front
+
 > npm start
+
 pour ouvrir le front (http://localhost:4200)
 
 > cd back
+
 > npm start
+
 pour ouvrir le back (http://localhost:3000)
 
 ## Avez-vous trouvé l'exercice facile ou vous a-t-il posé des difficultés ? Si oui, lesquelles ?
