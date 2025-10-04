@@ -1,0 +1,11 @@
+<div class="contactez-l-agence-container">
+    <h2>Contactez l'agence</h2>
+    <form class="form-container" #coordonnees="ngForm" (ngSubmit)="form.envoyer(coordonnees)" novalidate>
+        <app-vos-coordonnees class="vos-coordonnees-container" [coordonnees]="coordonnees"></app-vos-coordonnees>
+        <app-votre-message class="votre-message-container"></app-votre-message>
+        <app-disponibilites-pour-une-visite class="disponibilites-pour-une-visite-container"></app-disponibilites-pour-une-visite>
+        <div class="envoyer-container">
+            <button class="envoyer" type="submit">Envoyer</button>
+        </div>
+    </form>
+</div>

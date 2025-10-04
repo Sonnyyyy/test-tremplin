@@ -17,13 +17,3 @@ services:
       - "8080:80"
     links:
       - db:db
-
-  # APACHE
-  apache:
-    image: lavoweb/php-8.3
-    ports:
-      - "80:80"
-    volumes:
-      - ./www:/var/www/html
-    links:
-      - db:database

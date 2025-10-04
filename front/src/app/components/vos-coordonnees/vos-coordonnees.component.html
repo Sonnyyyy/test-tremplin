@@ -1,0 +1,17 @@
+<h3>Vos coordonnées</h3>
+<div class="genre-container">
+    <div>
+        <input type="radio" value="Mme" [(ngModel)]="form.genre" required #genre="ngModel" [ngClass]="{ 'error': genre.invalid && coordonnees.submitted }">
+        <span>Mme</span>
+    </div>
+    <div>
+        <input type="radio" value="M" [(ngModel)]="form.genre" required [ngClass]="{ 'error': genre.invalid && coordonnees.submitted }">
+        <span>M</span>
+    </div>
+</div>
+<div class="nom-container">
+    <input type="text" placeholder="Nom" [(ngModel)]="form.nom" required minlength="2" #nom="ngModel" [ngClass]="{ 'error': nom.invalid && coordonnees.submitted }">
+    <input type="text" placeholder="Prénom" [(ngModel)]="form.prenom" required minlength="2" #prenom="ngModel" [ngClass]="{ 'error': prenom.invalid && coordonnees.submitted }">
+</div>
+<input type="text" placeholder="Adresse mail" [(ngModel)]="form.mail" required email #mail="ngModel" [ngClass]="{ 'error': mail.invalid && coordonnees.submitted }">
+<input type="text" placeholder="Téléphone" [(ngModel)]="form.telephone" required pattern="^[0-9]{10}$" #telephone="ngModel" [ngClass]="{ 'error': telephone.invalid && coordonnees.submitted }">

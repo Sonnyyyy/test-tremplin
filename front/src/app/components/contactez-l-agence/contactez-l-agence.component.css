@@ -1,0 +1,72 @@
+.contactez-l-agence-container {
+    padding: 40px 60px 25px 60px;
+    max-width: 1400px;
+    border-radius: 30px;
+    background-image: url('src/assets/salon.png');
+    background-color: #0005;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 700px) {
+    .contactez-l-agence-container {
+        padding: 40px 1em 25px 1em;
+    }
+}
+
+.form-container {
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: start;
+    gap: 50px;
+}
+
+.vos-coordonnees-container {
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.votre-message-container {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.disponibilites-pour-une-visite-container {
+    width: 100%;
+    max-width: 600px;
+    min-height: 283px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.envoyer-container {
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+}
+
+.envoyer {
+    margin-top: 73px;
+    margin-bottom: 100px;
+    width: 200px;
+    background: #fbad18;
+    font-size: 18px;
+}
+
+.envoyer:hover {
+    background: #ce8b0f;
+    transition: 0.2s;
+}

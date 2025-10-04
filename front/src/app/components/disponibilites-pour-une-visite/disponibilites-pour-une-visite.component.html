@@ -1,0 +1,19 @@
+<h3>Disponibilités pour une visite</h3>
+<div class="selection-date-container">
+    <select class="selection-jour" [(ngModel)]="jourSelectionne">
+        <option *ngFor="let jour of jours" value="{{ jour }}">{{ jour }}</option>
+    </select>
+    <select class="selection-heure" [(ngModel)]="heureSelectionnee">
+        <option *ngFor="let heure of heures" value="{{ heure }}">{{ heure }}h</option>
+    </select>
+    <select class="selection-minutes" [(ngModel)]="minuteSelectionnee">
+        <option *ngFor="let minute of minutes" value="{{ minute }}">{{ minute }}m</option>
+    </select>
+    <button class="ajouter" (mousedown)="ajouterDisponibilite()">Ajouter dispo</button>
+</div>
+<div class="disponibilitees-container">
+    <div class="disponibilitee" *ngFor="let disponibilite of form.disponibilites; index as i">
+        <p>{{ disponibilite.jour }} à {{ disponibilite.heure }}h{{ disponibilite.minute === 0 ? '00' : disponibilite.minute }}</p>
+        <button (mousedown)="supprimerDisponibilite(i)">x</button>
+    </div>
+</div>

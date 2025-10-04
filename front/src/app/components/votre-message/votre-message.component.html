@@ -1,0 +1,16 @@
+<h3>Votre message</h3>
+<div class="demande-container">
+    <div>
+        <input type="radio" value="visite" [(ngModel)]="form.demande">
+        <span>Demande de visite</span>
+    </div>
+    <div>
+        <input type="radio" value="rappel" [(ngModel)]="form.demande">
+        <span>Être rappelé.e</span>
+    </div>
+    <div>
+        <input type="radio" value="photos" [(ngModel)]="form.demande">
+        <span>Plus de photos</span>
+    </div>
+</div>
+<textarea placeholder="Votre message" [(ngModel)]="form.message"></textarea>

@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "Metropolis";
+    src: url("/assets/Metropolis-Regular.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "Metropolis";
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+span {
+    font-size: 14px;
+    color: white;
+}
+
+input, select, textarea {
+    font-family: "Metropolis";
+    padding: 10px 24px;
+    border: none;
+    border-radius: 24px;
+    background: white;
+    font-size: 14px;
+    color: #333;
+}
+
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+textarea {
+    padding: 15px 24px;
+    height: 141px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 8px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+input::placeholder {
+    color: #aaa;
+}
+
+.error {
+    outline: solid #ee4444 2px;
+}

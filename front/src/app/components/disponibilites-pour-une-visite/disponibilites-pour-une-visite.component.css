@@ -1,0 +1,55 @@
+.selection-date-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.ajouter {
+    width: 100px;
+    background: #3f1486;
+    font-size: 12px;
+    padding: 2px;
+}
+
+.ajouter:hover {
+    background: #380e7a;
+    transition: 0.2s;
+}
+
+.disponibilitees-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.disponibilitee {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #d9d9d9;
+    color: #444;
+    border-radius: 24px;
+}
+
+.disponibilitee p {
+    margin: 0;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.disponibilitee button {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: #888;
+    margin-left: 10px;
+}
+
+.disponibilitee button:hover {
+    color: #d32f2f;
+    transition: 0.2s;
+}

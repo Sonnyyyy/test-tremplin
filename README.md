@@ -1,51 +1,41 @@
 # Test dev web Tremplin
 
-## Rendu
+## Qui suis-je
 
-<span style="color:red">**Rendre le projet sur github, en dépôt publique, envoyer le lien
-à [production@majordhom.fr](mailto:production@majordhom.fr), si vous m'envoyez un fichier zip je regarde pas. :)**</span>
+Moi c'est Sonny Pollet, j'ai appris à développer en auto-didacte, et j'ai ensuite obtenu le diplôme de "Développeur intégrateur en réalisation d’applications web" (bac +2) à la 3W Academy. La durée du stage serait de 2 mois.
 
-Le README.md de votre projet doit comprendre : 
- - Un petit résumé sur vous : nom / prénom, niveau d'étude, durée du stage, etc.
- - Un screenshot de la page créée
- - Comment démarrer l'environnement de votre projet
- - Les réponses à ces questions (pas besoin d'écrire un roman)
-   - Avez-vous trouvé l'exercice facile ou vous a-t-il posé des difficultés ? Si oui, lesquelles ?
-   - Avez-vous appris de nouveaux outils pour répondre à l'exercice ? Si oui, lesquels ?
-   - Pourquoi avoir choisi d'utiliser ces outils ?
-   - Avez-vous utilisé la stack proposée ? Utilisez-vous régulièrement docker ?
+## Screenshot de la page
 
+![alt text](./screenshot.jpg)
 
-## Démarrer la stack LAMP (optionnel)
-_Vous pouvez aussi monter votre propre serveur de développement._
+## Démarrer l'environnement
 
-Cloner le repo github
-> git clone https://github.com/Majordhom/test-tremplin.git
+> cd front
+> npm start
+pour ouvrir le front (http://localhost:4200)
 
-Démarer la stack Apache / Mysql / PhpMyAdmin avec docker.
+> cd back
+> npm start
+pour ouvrir le back (http://localhost:3000)
 
-> docker compose up -d
+## Avez-vous trouvé l'exercice facile ou vous a-t-il posé des difficultés ? Si oui, lesquelles ?
 
-Apache est ouvert sur le port :80 (http://localhost:80).\
-Phpmyadmin est ouvert sur le port :8080 (http://localhost:8080)\
-Mysql est ouvert sur :3306\
-\
-Utilisateur et mdp mysql: `root` et `verysecurepassword`
+Conceptuellement, c'est quelque chose que j'ai fait des dizaine de fois, alors je savais exactement quoi faire.
+Le problème est venu de la contrainte du temps, je n'ai pas pu faire ce à quoi je m'attendais et je me suis trop attardé sur des détails.
 
-## Exercice
+## Avez-vous appris de nouveaux outils pour répondre à l'exercice ? Si oui, lesquels ?
 
-*Limite de temps: 2 jours*
+J'ai essayé d'apprendre à utiliser Appache (première fois pour moi),
+mais les délais m'ont forcés à retourner sur des bases que je connaissais.
 
-![alt text](./maquette.png)
+## Pourquoi avoir choisi d'utiliser ces outils ?
 
-Vous devez intégrer cette maquette au site web de l'agence, enregistrez les données du formulaire dans la base de
-données.
-Nous voulons voir votre façon d'intégrer une maquette de manière *responsive*, comment vous organisez votre code (split des fichiers, commentaires, balises html, écriture des fonctions ...), et
-comment vous  gérez la sécurité de celui-ci.
+Parce qu'ils m'étaient familiers.
 
-Le but est de montrer ce que vous savez faire: 
-- Intégrer une maquette front avec minutie
-- Connaissance d'un framework front ou back (React, Angular, Typescript, Laravel, Symfony, NextJS ...) 
-- Autres outils pour la gestion de dates, d'un captcha etc.
+## Avez-vous utilisé la stack proposée ? 
 
-Bonne chance !
+J'ai essayé.
+
+## Utilisez-vous régulièrement docker ?
+
+J'avais déjà utilisé Docker par le passé, mais pas régulièrement non.
